@@ -6,7 +6,7 @@
 
 int main(void)
 {
-    setlocale(LC_ALL, "")
+    setlocale(LC_ALL, "");
     double volume, a, b, c, s, h, rad;
 
 
@@ -34,4 +34,5 @@ int main(void)
 
     return 0;
 }
+
 
