@@ -2,14 +2,15 @@
 #include <math.h>
 
 int main(void) {
-    double x, y;
-    scanf("%lf %lf", &x, &y);
+    double x;
+    scanf("%lf", &x);
 
-    double A = (exp(x) - y*y + 12*x*y - 3*x*x) / (18*y - 1);
-    double B = (1 + sin(sqrt(x + 1))) / cos(12*y - 4);
+    double A = 2*(( cos(3*x)) / sin(3*x)) - (log(cos(x)) /log(1+ x*x));
+    double B = (exp(x) - x -2 + pow(1+x, x));
 
     printf("%+.5f\n", A);
     printf("%+.5e\n", B);
 
     return 0;
 }
+
